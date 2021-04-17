@@ -1,0 +1,16 @@
+@import url("navigation.css"); /* Using a url */
+body{
+    margin: 10px;
+    background-color: darkslategrey;
+}
+
+h1{
+    color:white;
+}
+
+#top{
+    background-image: url("../media/hero-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
