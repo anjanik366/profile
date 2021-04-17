@@ -1,19 +1,67 @@
-@import url("navigation.css"); /* Using a url */
-body{
-    margin: 10px;
-    background-color: darkslategrey;
-}
-
-h1{
-    color:white;
-}
-
-#top{
-    background-image: url("../media/hero-bg.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 900px;
-}
-.navbar{
+/* #social {
     text-align: center;
-}
+  }
+  
+  #social ul {
+    float: left;
+  }
+  
+  #social ul li {
+    float: left;
+    padding-left: 10px;
+    list-style-type: none;
+  } */
+
+  .social-icons li a{
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  #social-icons {
+      padding:0;
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      right:0;
+      z-index: 199;
+    }
+    .social-icons {
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+    .social-icons li {
+      display: block;
+      margin: 1px 0px;
+    }
+    .social-icons li a {
+      width:50px;
+      height:50px;
+      display:inline-block;
+      line-height:50px;
+      text-align:center;
+      /* background: rgba(255, 255, 255, 0.1); */
+      background: transparent !important;
+      color: rgba(255,255,255,1);
+      font-size:18px;
+    }
+    .social-icons li a:hover {
+      color:#1e1e1e;
+      background: yellow;
+      background-color: rgba(228, 40, 40, 0.1);
+  
+      /* background-color: rgb(238, 92, 48); */
+    }
+  
+    .social-icons li a {
+      width:25px;
+      height:30px;
+      display:inline-block;
+      line-height:30px;
+      text-align:center;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255,255,255,1);
+      font-size:20px;
+    }
+    .social-icons {
+      margin: 0 auto;
+  }
